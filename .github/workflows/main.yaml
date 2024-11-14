@@ -2,7 +2,7 @@ name: First Workflow
 run-name: Testing github actions
 on: [push]
 jobs:
-  Trying actions
+  Trying_actions:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello world"
